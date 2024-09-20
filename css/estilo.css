@@ -1,7 +1,7 @@
 
 
 body{
-background-color:darkslategrey
+background-color: black
 text-align:center;
 align-items:center;
 }
@@ -15,10 +15,10 @@ align-items:center;
 }
 
 #paragrafo1{
-    color: black
+    color: white
 }
 
 #paragrafo3{
-    color: black
+    color: white
 }
 
