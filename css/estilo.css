@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body{
+    font-family: 'Arial, Helvetica, sans-serif';
+
+}
+
+.header-inner-content{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.navbar {
+    background-color: grey
+    ;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px; color: gray;
+    z-index: 99;
+}
+
+.navbar>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    color: plum;
+}
+
+.logo span{
+    color: blueviolet;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-icon-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-icon-container img{
+    width: 30px;
+    cursor: pointer;
+}
+
+nav ul li{
+    color: white;
+    margin-right: 5rem;
+    cursor: pointer;
+
+
+}
+
+nav ul li:hover{
+    transform: translate(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+.menu-button{
+    display: none;
+}
+
+.header{
+    background-image: radial-gradient(white, #c7c7c7) ;
+}
+ 
+
+.header-buttom-side{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+
+}
+
+.header-buttom-left{
+    height: 100%;
+    flex-basis: 50%;
+}
+
+.header-buttom-left h2{
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.header-buttom-left p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.header-buttom-left button{
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.8rem;
+    border-radius: 9999px;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.header-buttom-left button:hover{
+    background-color: purple;
+}
+
+
+.header-buttom-right{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-buttom-right img{
+    width: 115%;
+    
+    
+}
